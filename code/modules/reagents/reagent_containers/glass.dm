@@ -366,6 +366,7 @@
 	to_chat(user, "<span class='warning'>You can't grind this!</span>")
 
 /obj/item/reagent_containers/glass/saline
+	name = "saline canister"
 	volume = 5000
 	list_reagents = list(/datum/reagent/medicine/salglu_solution = 5000)
 
@@ -376,5 +377,5 @@
 	icon_state = "Skull_Cup"
 	inhand_icon_state = "Skull_Cup"
 	worn_icon_state = "Skull_Cup"
-	custom_materials = list(/obj/item/bodypart/head)
+	custom_materials = list(/obj/item/bodypart/head/monkey)
 	fill_icon_thresholds = list(0, 10, 25, 50, 75, 80, 90)
