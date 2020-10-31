@@ -914,3 +914,11 @@
 				/obj/item/grenade/gas_crystal/zauker_crystal = 1
 				)
 	category = CAT_MISC
+
+/datum/crafting_recipe/skull_cup
+	name = "Skull Cup"
+	result = /obj/item/reagent_containers/glass/skull
+	time = 15 SECONDS
+	reqs = list(/obj/item/bodypart/head/monkey = 1)
+
+	category = CAT_MISC

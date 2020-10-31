@@ -250,6 +250,7 @@
 				eyes_overlay.color = "#" + eyes.eye_color
 
 /obj/item/bodypart/head/monkey
+	name = "monkey head"
 	icon = 'icons/mob/animal_parts.dmi'
 	icon_state = "default_monkey_head"
 	animal_origin = MONKEY_BODYPART
